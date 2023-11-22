@@ -31,7 +31,8 @@ font-family: 'VT323', monospace;
     background-color:#ccc;
     border: #333 5px solid;
     position: absolute;
-    left: 35%
+    left: 35%;
+    margin-top: 5px;
   }
 
 
@@ -52,3 +53,4 @@ font-family: 'VT323', monospace;
   ul {
     list-style-type: none;
   }
+

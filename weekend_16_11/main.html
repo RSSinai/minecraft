@@ -6,6 +6,10 @@
     <title>2D Minecraft Game</title>
     <link rel="stylesheet" href="./main_style.css" />
     <link rel="icon" type="image/x-icon" href="./cube_images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=VT323&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <audio controls autoplay hidden>
@@ -14,7 +18,7 @@
     </audio>
     <div id="sidebar">
       <div class="section" id="tools">
-        <h3>Tools</h3>
+        <h1>Tools</h1>
         <div class="card tool axe"></div>
         <div class="card tool pickaxe"></div>
         <div class="card tool shovel"></div>
@@ -22,8 +26,12 @@
         <div class="card tool safe"></div>
       </div>
       <div class="section" id="inventory">
-        <h3>Inventory</h3>
+        <h1>Inventory</h1>
         <div class="last-cell card"></div>
+        <div id="counterDisplay">Cells Clicked: 0</div>
+      </div>
+      <div class="refresh">
+        <button onclick="refreshPage()">Click to Refresh</button>
       </div>
     </div>
     <div id="game-board"></div>
